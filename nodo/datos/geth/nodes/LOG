@@ -1,0 +1,42 @@
+=============== Mar 28, 2025 (UTC) ===============
+14:37:01.635864 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:37:01.649741 db@open opening
+14:37:01.653041 version@stat F·[] S·0B[] Sc·[]
+14:37:01.657196 db@janitor F·2 G·0
+14:37:01.657385 db@open done T·7.460257ms
+=============== Mar 31, 2025 (UTC) ===============
+20:17:22.973199 db@close closing
+20:17:22.979259 db@close done T·7.329073ms
+=============== Apr 1, 2025 (UTC) ===============
+18:30:31.896123 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+18:30:31.909374 version@stat F·[] S·0B[] Sc·[]
+18:30:31.910517 db@open opening
+18:30:31.917884 journal@recovery F·1
+18:30:31.918990 journal@recovery recovering @1
+18:30:31.934552 memdb@flush created L0@2 N·2 S·181B "loc..seq,v2":"version,v1"
+18:30:31.962235 version@stat F·[1] S·181B[181B] Sc·[0.25]
+18:30:31.999990 db@janitor F·3 G·0
+18:30:32.000222 db@open done T·89.510667ms
+=============== Apr 8, 2025 (UTC) ===============
+21:14:10.487700 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:14:10.493910 version@stat F·[1] S·181B[181B] Sc·[0.25]
+21:14:10.494396 db@open opening
+21:14:10.495620 journal@recovery F·1
+21:14:10.496489 journal@recovery recovering @3
+21:14:10.503725 memdb@flush created L0@5 N·1 S·162B "loc..seq,v4":"loc..seq,v4"
+21:14:10.506998 version@stat F·[2] S·343B[343B] Sc·[0.50]
+21:14:10.531249 db@janitor F·4 G·0
+21:14:10.531457 db@open done T·36.894496ms
+=============== Apr 17, 2025 (UTC) ===============
+21:16:53.291249 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:16:53.298860 version@stat F·[2] S·343B[343B] Sc·[0.50]
+21:16:53.299440 db@open opening
+21:16:53.300988 journal@recovery F·1
+21:16:53.302702 journal@recovery recovering @6
+21:16:53.309407 memdb@flush created L0@8 N·1 S·162B "loc..seq,v6":"loc..seq,v6"
+21:16:53.314019 version@stat F·[3] S·505B[505B] Sc·[0.75]
+21:16:53.345705 db@janitor F·5 G·0
+21:16:53.345939 db@open done T·46.275857ms
+=============== Apr 18, 2025 (UTC) ===============
+18:43:39.835659 db@close closing
+18:43:39.846729 db@close done T·12.52812ms
